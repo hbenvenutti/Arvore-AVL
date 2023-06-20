@@ -25,7 +25,7 @@ public class HightHandler {
   // ------------------------------------------------------------------------ //
 
   public static short getFactor(Node node) {
-    return (short) (node.left.hight - node.right.hight);
+    if (node == null) return 0;
+    return (short) (getHight(node.left) - getHight(node.right));
   }
-
 }

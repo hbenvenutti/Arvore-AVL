@@ -11,14 +11,14 @@ public class RotateTree {
 
     if (newHead.left != null) {
       child = newHead.left;
-      child.top = oldHead;
+      // child.top = oldHead;
     }
 
     newHead.top = null;
     newHead.left = oldHead;
 
     oldHead.right = child;
-    oldHead.top = newHead;
+    // oldHead.top = newHead;
 
     // *** --- update hights -------------------------------------------- *** //
 
@@ -36,14 +36,14 @@ public class RotateTree {
 
     if (newHead.right != null) {
       child = newHead.right;
-      child.top = oldHead;
+      // child.top = oldHead;
     }
 
     newHead.top = null;
     newHead.right = oldHead;
 
     oldHead.left = child;
-    oldHead.top = newHead;
+    // oldHead.top = newHead;
 
     // *** --- update hights -------------------------------------------- *** //
 
