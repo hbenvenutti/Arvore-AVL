@@ -1,11 +1,12 @@
 package model;
 
 public class Node {
-  Node top;
-  Node right;
-  Node left;
+  public Node top = null;
+  public Node right = null;
+  public Node left = null;
+  public short hight = 0;
 
-  int value;
+  private int value;
 
   // *** --- constructors ----------------------------------------------- *** //
 
@@ -36,4 +37,34 @@ public class Node {
     this.right = right;
     this.left = left;
   }
+
+  // *** --- getters ---------------------------------------------------- *** //
+
+  public int getValue() {
+    return value;
+  }
+
+  // *** --- static methods --------------------------------------------- *** //
+
+  public static void doubleLeftRotation() {}
+
+  // ------------------------------------------------------------------------ //
+
+  public static void doubleRightRotation() {}
+
+  // ------------------------------------------------------------------------ //
+  
+
+
+  // ------------------------------------------------------------------------ //
+
+
+
+  // ------------------------------------------------------------------------ //
+
+
+
+  // ------------------------------------------------------------------------ //
+
+
 }
