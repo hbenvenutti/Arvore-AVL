@@ -1,6 +1,4 @@
-package node;
-
-import model.Node;
+package tree;
 
 public class HightHandler {
   public static short getHight(Node node) {

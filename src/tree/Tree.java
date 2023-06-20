@@ -1,7 +1,4 @@
-package model;
-
-import node.HightHandler;
-import node.RotateTree;
+package tree;
 
 public class Tree {
   private Node root;

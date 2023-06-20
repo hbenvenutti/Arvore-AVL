@@ -1,4 +1,4 @@
-package model;
+package tree;
 
 public class Node {
   public Node top = null;
