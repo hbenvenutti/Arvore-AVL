@@ -1,10 +1,13 @@
 package tree;
 
 public class PrintTree {
-  public static void print(Node root) {
+  public static void print(Tree tree) {
+    Node root = tree.getRoot();
     print(root, 0);
   }
 
+  // ------------------------------------------------------------------------ //
+  
   public static void print(Node root, int level) {
     int i;
     

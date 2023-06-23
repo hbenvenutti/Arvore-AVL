@@ -23,8 +23,9 @@ public class Tree {
 
   // *** --- methods ---------------------------------------------------- *** //
   
-  public Node insert(int value) {
-    return insert(this.root, value);
+  public void insert(int value) {
+    this.root = insert(this.root, value);
+    return;
   }
 
   // ------------------------------------------------------------------------ //
